@@ -131,5 +131,5 @@ Se instaló el software necesario para trabajar con Java y Maven, y se verificó
   ![Captura Visual Studio Code](./Evidencias/VSCODE.png)
 
 - **IntelliJ IDEA**:
-  ![Captura IntelliJ IDEA](./Evidencias/INTELIJ.png)
+  ![Captura IntelliJ IDEA](./Evidencias/INTELIJI.png)
 
