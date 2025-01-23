@@ -1,9 +1,9 @@
 # Práctica 1: Comandos Git y Entorno de Desarrollo Java
 
-## Comandos Git
+## **Comandos Git**
 Se utilizaron los siguientes comandos:
 
-1. **`git clone`**:
+### 1. **`git clone`**
    - **Descripción**: Clona un repositorio remoto a tu máquina local.
    - **Uso**:
      ```bash
@@ -11,15 +11,15 @@ Se utilizaron los siguientes comandos:
      ```
    - **Log de consola**:
      ```
-    cloning into 'p1'...
-    remote: Enumerating objects: 6, done.
-    remote: Counting objects: 100% (1/1), done.
-    remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 5 (from 1)
-    Receiving objects: 100% (6/6), done.
+     Cloning into 'p1'...
+     remote: Enumerating objects: 6, done.
+     remote: Counting objects: 100% (1/1), done.
+     remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 5 (from 1)
+     Receiving objects: 100% (6/6), done.
      ...
      ```
 
-2. **`git status`**:
+### 2. **`git status`**
    - **Descripción**: Muestra el estado de los archivos en el repositorio local (modificados, nuevos, o listos para confirmar).
    - **Uso**:
      ```bash
@@ -28,33 +28,32 @@ Se utilizaron los siguientes comandos:
    - **Log de consola**:
      ```
      On branch main
-        Your branch is up to date with 'origin/main'
+     Your branch is up to date with 'origin/main'.
      ```
 
-3. **`git add`**:
+### 3. **`git add`**
    - **Descripción**: Agrega archivos al área de preparación para confirmarlos.
    - **Uso**:
      ```bash
      git add git.txt
      ```
    - **Log de consola**:
-     ```
-     ```
+     *(No se mostró salida en este caso)*
 
-4. **`git commit`**:
-   - **Descripción**: Confirma los cambios en el repositorio local.
+### 4. **`git commit`**
+   - **Descripción**: Confirma los cambios realizados en el repositorio local.
    - **Uso**:
      ```bash
      git commit -m "Añadido git.txt con descripción de comandos"
      ```
    - **Log de consola**:
      ```
-    [main 5e6405e] Añadido archivo con explicaciones de comandos Git
-    1 file changed, 1 insertion(+)
-    create mode 100644 git.txt
+     [main 5e6405e] Añadido archivo con explicaciones de comandos Git
+     1 file changed, 1 insertion(+)
+     create mode 100644 git.txt
      ```
 
-5. **`git push`**:
+### 5. **`git push`**
    - **Descripción**: Sube los cambios confirmados al repositorio remoto.
    - **Uso**:
      ```bash
@@ -63,17 +62,17 @@ Se utilizaron los siguientes comandos:
    - **Log de consola**:
      ```
      Enumerating objects: 4, done.
-    Counting objects: 100% (4/4), done.
-    Delta compression using up to 2 threads
-    Compressing objects: 100% (2/2), done.
-    Writing objects: 100% (3/3), 337 bytes | 337.00 KiB/s, done.
-    Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-    To https://github.com/hugoragg/p1.git
-    07720b5..5e6405e  main -> main
+     Counting objects: 100% (4/4), done.
+     Delta compression using up to 2 threads
+     Compressing objects: 100% (2/2), done.
+     Writing objects: 100% (3/3), 337 bytes | 337.00 KiB/s, done.
+     Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+     To https://github.com/hugoragg/p1.git
+     07720b5..5e6405e  main -> main
      ...
      ```
 
-6. **`git checkout`**:
+### 6. **`git checkout`**
    - **Descripción**: Cambia entre ramas o versiones específicas del código.
    - **Uso**:
      ```bash
@@ -81,9 +80,10 @@ Se utilizaron los siguientes comandos:
      ```
    - **Log de consola**:
      ```
-     "Switched to a new branch 'nueva_rama'"
+     Switched to a new branch 'nueva_rama'
      ```
 
+---
 ## Configuración del Entorno de Desarrollo Java
 Se instaló el software necesario para trabajar con Java y Maven, y se verificó su correcto funcionamiento.
 
@@ -131,5 +131,5 @@ Se instaló el software necesario para trabajar con Java y Maven, y se verificó
   ![Captura Visual Studio Code](./Evidencias/VSCODE.png)
 
 - **IntelliJ IDEA**:
-  ![Captura IntelliJ IDEA](./Evidencias/INTELLIJ.png)
+  ![Captura IntelliJ IDEA](./Evidencias/INTELIJ.png)
 
