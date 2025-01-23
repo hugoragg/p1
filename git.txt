@@ -1,1 +1,49 @@
 Explicación de comandos Git
+### Comandos Git usados:
+
+1. **git clone**: 
+   - Descarga un repositorio remoto a tu equipo.
+   - Uso: `git clone <URL>`
+   - Log: cloning into 'p1'...
+        remote: Enumerating objects: 6, done.
+        remote: Counting objects: 100% (1/1), done.
+        remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 5 (from 1)
+        Receiving objects: 100% (6/6), done.
+
+2. **git status**: 
+   - Muestra el estado del repositorio local.
+   - Uso: `git status`
+   - Log: On branch main
+        Your branch is up to date with 'origin/main'
+
+3. **git add**: 
+   - Añade archivos al área de preparación.
+   - Uso: `git add git.txt`
+   - Log: 
+
+4. **git commit**: 
+   - Guarda los cambios en el historial local.
+   - Uso: `git commit -m "Mensaje"`
+   - Log: [main 5e6405e] Añadido archivo con explicaciones de comandos Git
+        1 file changed, 1 insertion(+)
+        create mode 100644 git.txt
+
+5. **git push**: 
+   - Sube cambios locales al repositorio remoto.
+   - Uso: `git push origin main`
+   - Log: Enumerating objects: 4, done.
+        Counting objects: 100% (4/4), done.
+        Delta compression using up to 2 threads
+        Compressing objects: 100% (2/2), done.
+        Writing objects: 100% (3/3), 337 bytes | 337.00 KiB/s, done.
+        Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+        To https://github.com/hugoragg/p1.git
+        07720b5..5e6405e  main -> main
+
+6. **git checkout**: 
+   - Cambia entre ramas o crea una nueva.
+   - Uso: `git checkout -b nueva_rama`
+   - Log: "Switched to a new branch 'nueva_rama'"
+
+
+
